@@ -133,3 +133,21 @@ select{
     background: white;
     color: #ff6f47;
 }
+
+@media screen and (max-width: 800px) {
+    .select{
+        margin: 1rem;
+        position: absolute;
+        overflow: hidden;
+        transform: translateY(130%);
+    }
+    .todo-list{
+        margin-top: 10% ;
+    }
+    .todo-input{
+        margin-left: 8%;
+    }
+    .todo-button{
+        margin-right: 8%;
+    }
+  }
